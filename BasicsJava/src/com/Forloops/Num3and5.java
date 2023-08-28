@@ -1,4 +1,4 @@
-package com.loops;
+package com.Forloops;
 
 import java.util.Scanner;
 
