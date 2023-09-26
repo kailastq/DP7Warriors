@@ -2,7 +2,7 @@ package com.Forloops;
 
 import java.util.Scanner;
 
-public class FactorialNumber {
+public class FactorialofNumber {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -20,7 +20,7 @@ public class FactorialNumber {
 		for(int i=1; i<=num;i++)
 			fact*=i;
 		
-		System.out.println("Factorial of number is:"+fact);
+		System.out.println("Factorial of number is: "+fact);
 		
 
 	}

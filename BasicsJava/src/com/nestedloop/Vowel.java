@@ -1,4 +1,4 @@
-package com.nestedifelse;
+package com.nestedloop;
 
 import java.util.Scanner;
 
