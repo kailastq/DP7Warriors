@@ -29,7 +29,7 @@ public class BookingTicket {
 		{
 			System.out.println("Sorry. ! You are not eligible for the discount ");
 		}
-		System.out.println(" Have a safe Journey..!");
+		System.out.println("Have a safe Journey..!");
 
 	}
 
