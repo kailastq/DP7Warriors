@@ -89,8 +89,8 @@ public class Carmain {
 	//	Vehicle v=new Vehicle(7007, "Sedan", 5500000);
 	//  System.out.println(v);
 		
-		Cardemo c=new Cardemo (7007, "Sports", 5500000f,  1,  "Supra");
-		System.out.println(c);
+		Cardemo c1=new Cardemo (7007, "Sports", 5500000f,  1,  "Supra");
+		System.out.println(c1);
 
 
 	}
