@@ -7,9 +7,10 @@ abstract class Animal {
 		System.out.println("The Animal is Eating..");
 	}
 
-	Animal() {
-
-	}
+//	Animal() {
+//
+//	}
+	
 }
 
 class Tiger extends Animal {
@@ -17,6 +18,7 @@ class Tiger extends Animal {
 		System.out.println("Tiger is Roaring");
 	}
 }
+
 
 public class Abstractclass1 {
 
