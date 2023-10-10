@@ -17,9 +17,5 @@ public class ArrayUserInput {
 			arr[i]=sc.nextInt();
 		}
 		System.out.println(arr); // prints hashcode
-		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(arr)); }}
 		
-
-	}
-
-}

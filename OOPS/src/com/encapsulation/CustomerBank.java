@@ -1,6 +1,6 @@
 package com.encapsulation;
 
-public class Customer {
+public class CustomerBank {
 	private int cid;
 	private String cname;
 	private int accountno;

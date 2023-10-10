@@ -1,7 +1,8 @@
 package com.Overriding;
 
 class MyPerson {
-	void display() {
+	void display() 
+	{
 		System.out.println("I am a person");
 	}
 }
@@ -16,8 +17,8 @@ class MyEmployee extends MyPerson {
 
 	}
 
-	void show() {
-
+	void show()
+	{
 		System.out.println("Employee is showing talent");
 	}
 
@@ -25,7 +26,8 @@ class MyEmployee extends MyPerson {
 
 class MyCelebrity extends MyPerson {
 	@Override
-	void display() {
+	void display()
+	{
 		System.out.println("I am an celebrity");
 	}
 
@@ -50,7 +52,6 @@ public class DynamicMethodDispatch {
 		// p.show(); This method is not accesible
 
 		p = new MyCelebrity();
-
 		p.display();
 
 	}

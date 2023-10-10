@@ -15,7 +15,7 @@ public class Bank {
 		System.out.println(" Enter the Account Number:");
 		int acc = sc.nextInt();
 
-		Customer c = new Customer();
+		CustomerBank c = new CustomerBank();
 		c.setC_id(id);
 		c.setCname(name);
 		c.setAccountno(acc);

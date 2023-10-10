@@ -1,7 +1,7 @@
 package com.Array;
 
 public class AdditionOfAlternateElement {
-	static void ElementAddition(int arr[])
+	 static void ElementAddition(int arr[])
 	{
 		int sum=0;
 		
