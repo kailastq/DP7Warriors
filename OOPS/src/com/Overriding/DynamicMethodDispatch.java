@@ -17,10 +17,10 @@ class MyEmployee extends MyPerson {
 
 	}
 
-	void show()
-	{
-		System.out.println("Employee is showing talent");
-	}
+//	void show()
+//	{
+//		System.out.println("Employee is showing talent");
+//	}
 
 }
 
@@ -33,19 +33,18 @@ class MyCelebrity extends MyPerson {
 
 }
 
-public class DynamicMethodDispatch {
+public class DynamicMethodDispatch 
+{
 
 	public static void main(String[] args) {
 
 		MyPerson p;
-
 		p = new MyPerson();
-
 		p.display();
 
 		MyEmployee e1 = new MyEmployee();
 		e1.display();
-		e1.show();
+//		e1.show();
 
 		p = new MyEmployee();
 		p.display();
