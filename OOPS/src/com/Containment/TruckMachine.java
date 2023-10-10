@@ -1,16 +1,16 @@
 package com.Containment;
 
-public class Truck {
+public class TruckMachine {
 	private  int model;
 	private String truckname;
 	private Machine m;
 	
 	
-	Truck(){
+	TruckMachine(){
 		
 	}
 	
-	Truck(int model, String truckname, Machine m){
+	TruckMachine(int model, String truckname, Machine m){
 		this.model=model;
 		this.truckname=truckname;
 		this.m=m;

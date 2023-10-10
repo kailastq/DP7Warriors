@@ -1,6 +1,6 @@
 package com.Containment;
 
-public class Mycollege {
+public class MycollegeMain {
 
 	public static void main(String[] args) {
 		Course c1=new Course(101,"English",4900f);

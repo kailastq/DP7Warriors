@@ -1,16 +1,16 @@
 package com.Containment;
 
-public class Driver {
+public class CarDriver {
 	private int id;
 	private String name;
 	private Car car;
 	
-	Driver()
+	CarDriver()
 	{
 		
 	}
 	
-	Driver(int id, String name, Car car){
+	CarDriver(int id, String name, Car car){
 		this.id=id;
 		this.name=name;
 		this.car=car;

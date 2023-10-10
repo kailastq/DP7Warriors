@@ -1,6 +1,6 @@
 package com.Containment;
 
-public class Vehicle {
+public class CarDriverMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,9 +8,9 @@ public class Vehicle {
 		Car c2=new Car("PHAMTOM", "ROLLS ROYCE", 990000f);
 		Car c3=new Car("Q8", "AUDI", 900000f);
 		
-		Driver d1=new Driver(200, "Aniket", c1);
-		Driver d2=new Driver(300, "Anuj", c2);
-		Driver d3=new Driver(100, "Kailash", c3);
+		CarDriver d1=new CarDriver(200, "Aniket", c1);
+		CarDriver d2=new CarDriver(300, "Anuj", c2);
+		CarDriver d3=new CarDriver(100, "Kailash", c3);
 		
 		System.out.println(d1);
 		System.out.println("-------------------------------");

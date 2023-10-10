@@ -1,6 +1,6 @@
 package com.Containment;
 
-public class Tournament {
+public class TournamentMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
