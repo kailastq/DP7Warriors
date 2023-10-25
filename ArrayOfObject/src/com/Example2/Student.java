@@ -44,7 +44,8 @@ public class Student {
 	}
 
 	public String toString() {
-		return "Student Id:" + id + "Name:" + name + "Marks:" + Arrays.toString(marks);
+	//	return "Student Id:" + id + "Name:" + name + "Marks:" + Arrays.toString(marks);
+	return id+" "+name+" "+Arrays.toString(marks);
 	}
 
 }

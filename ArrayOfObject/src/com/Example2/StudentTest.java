@@ -1,6 +1,19 @@
 package com.Example2;
 
 public class StudentTest {
+	static float calcPercentage(Student s)
+	{
+		float m[]=s.getMarks();
+		float total=0;
+		for(float m1:m)
+		{
+			total=total +m1;
+		}
+		
+		float per=(total/500)*100;
+		return per;
+	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +31,14 @@ public class StudentTest {
 		st[2].setId(103);
 		st[2].setName("Anuj");
 		st[2].setMarks(m3);
+		
+		System.out.println("-------------------------------------------------");
+		
+		for(Student s:st)
+		{
+			//System.out.println(s);
+			System.out.println(s.getId()+" "+s.getName()+" "+calcPercentage(s));
+		}
 
 
 	}
