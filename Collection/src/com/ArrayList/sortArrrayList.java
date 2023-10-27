@@ -15,8 +15,7 @@ public class sortArrrayList {
 					list.set(j, temp);
 				}
 			}
-		}
-		
+		}	
 	}
 
 	public static void main(String[] args) {
