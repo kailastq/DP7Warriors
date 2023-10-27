@@ -15,7 +15,7 @@ public class CollectionArrayConversion {
 //		Arrays.sort(colors);
 //		System.out.println(Arrays.toString(colors));
 		
-		// 1st way
+        // 1st way
 		
 		List<String> al= Arrays.asList(colors);
 		System.out.println(al);
@@ -31,7 +31,9 @@ public class CollectionArrayConversion {
 		Collections.addAll(al3, colors);
 		System.out.println(al3);
 		
+		
 		System.out.println("-----------------------------------------------");
+		
 		
 		////////////////////////////////////////
 		
