@@ -25,7 +25,7 @@ abstract class Account {
 class SavingAccount extends Account {
 
 	SavingAccount() {
-
+		
 	}
 
 	SavingAccount(long accNo, String name, float balance) {
