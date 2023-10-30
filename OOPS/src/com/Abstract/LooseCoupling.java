@@ -3,6 +3,7 @@ package com.Abstract;
 abstract class Truck {
 	String brandname;
 	int price;
+	
 
 	Truck() {
 
