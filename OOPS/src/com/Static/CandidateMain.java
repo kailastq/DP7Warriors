@@ -17,15 +17,15 @@ class Candidate {
 
 	void display() {
 		System.out.println("Student Details is: ");
-		System.out.println(id);
-		System.out.println(name);
+		System.out.println("Id: "+id);
+		System.out.println("Name: "+name);
 
 	}
 
-//	public String  toString() {
-//		return "Id: " + id + "Name: " + name;
-//	
-//	}
+	public String  toString() {
+		return "Id: " + id + "Name: " + name;
+	
+	}
 }
 
 public class CandidateMain {
