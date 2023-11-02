@@ -52,7 +52,6 @@ public class IterateArraysList {
 		//4th way
 		
 		ListIterator<String> litr=al.listIterator();
-		
 		while(litr.hasNext())
 		{
 			System.out.println(litr.next());
@@ -67,6 +66,7 @@ public class IterateArraysList {
 		{
 			System.out.println(litr1.previous());
 		}
+		
 	}
 
 }
