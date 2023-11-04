@@ -5,9 +5,9 @@ public class Course {
 	private String name;
 	private double fees;
 	
-	public Course() {
+	public Course() 
+	{
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Course(int id, String name, double fees) {
