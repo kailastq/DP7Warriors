@@ -17,7 +17,7 @@ public class EqualsComparison {
 		String s4=new String("hii");
 		
 		System.out.println(s3==s4);
-		System.err.println(s3.equals(s4));
+		System.out.println(s3.equals(s4));
 		
 		// == compares reference of memory
 		// equals - compare content
