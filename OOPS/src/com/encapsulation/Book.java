@@ -29,19 +29,21 @@ public class Book {
 		public float getPrice() {
 			return price;
 		}
+		public void setPrice(float price) {
+			this.price=price;
+		}
 		
 		/* 
 		 * public void display ()
 		 * {
 		 * system.out.println(bookId+ "  " +bname+ "  "+price); 
 		 *  } */
+		
 		public String toString()
 		{
 			return "BookId: "+ bookId+ "Book Name: "+ bname+" Price: "+ price;
 		}
-		public void setPrice(float price) {
-			this.price=price;
-		}
+		
 		
 		
 
