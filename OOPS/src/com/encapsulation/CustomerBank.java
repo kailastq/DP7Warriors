@@ -57,4 +57,12 @@ public class CustomerBank {
 		this.balance = Balance;
 	}
 
+//	@Override
+//	public String toString() {
+//		return "CustomerBank [cid=" + cid + ", cname=" + cname + ", accountno=" + accountno + ", credit=" + credit
+//				+ ", debit=" + debit + ", balance=" + balance + "]";
+//	}
+	
+	
+
 }
