@@ -5,7 +5,8 @@ class Vehicle {
 	private String type;
 	private float price;
 
-	public Vehicle() {
+	public Vehicle() 
+	{
 		super();
 	}
 
@@ -43,7 +44,9 @@ class Vehicle {
 		return "\nVehicle Num: " + num + "\nType: " + type + "\nPrice: " + price ;
 	}
 }
-	class Cardemo extends Vehicle{
+
+
+class Cardemo extends Vehicle{
 		private int vehicleage;
 		private String model;
 		

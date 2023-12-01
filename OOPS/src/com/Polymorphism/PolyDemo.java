@@ -6,7 +6,8 @@ class Shape {
 	}
 
 	void area(int length, int breadth) {
-		System.out.println("Area of rectangle: " + (length * breadth));
+		int result=(length * breadth);
+		System.out.println("Area of rectangle: " + result);
 	}
 
 	void area(float radius) {

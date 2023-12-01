@@ -27,7 +27,7 @@ public class PersonMain {
 		p2.activity("Kailash", "Vishal");
 		
 		Person p3=new Person();
-		p3.activity("Trekking");
+		p3.activity("Riding");
 		
 		
 		

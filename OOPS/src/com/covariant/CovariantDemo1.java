@@ -24,13 +24,18 @@ class Person {
 	}
 	}
 
-class Employee extends Person{
+class Employee extends Person
+{
 	float salary;
 	
-	Employee(){
+	Employee()
+	{
 		
 	}
-	Employee(int id, String name, float salary){
+	
+	
+	Employee(int id, String name, float salary)
+	{
 		super(id, name);
 		this.salary=salary;
 	}
@@ -42,7 +47,7 @@ class Employee extends Person{
 //	}
 	
 	Employee showDetails() {
-		name=name+"-ThinkQ";
+		name=name+" -ThinkQ";
 		salary=salary+1000;
 		return this;
 	}

@@ -40,7 +40,7 @@ class Student {
 	}
 
 	public String toString() {
-		return "\nid=" + id + "\nname=" + name + "\nfees=" + fees;
+		return "\nId=" + id + "\nName=" + name + "\nFees=" + fees;
 	}
 }
 
@@ -54,7 +54,7 @@ class SchoolStudent extends Student {
 
 	public SchoolStudent(int id, String name, float fees, String SchoolName, int std) {
 		super(id, name, fees);
-		this.Schoolname = Schoolname;
+		this.Schoolname = SchoolName;
 		this.std = std;
 	}
 
@@ -128,9 +128,9 @@ class CollegeStudent extends Student {
 
 public class Hierarchical {
 
-	public static void enterSchoolStudentDetails(SchoolStudent s) {
-
-	}
+//	public static void enterSchoolStudentDetails(SchoolStudent s) {
+//
+//	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -3,11 +3,11 @@ package com.encapsulation;
 public class Item {
 	int item_id=100;
 	String item_name="Pant";
-	float item_price=10.5f;
+	float item_price=1000.5f;
 	
 	void display()
 	{
-		System.out.println(" Itemid "+item_id+" item_name "+item_name+" item_price "+item_price);
+		System.out.println("Itemid: "+item_id+" \nItem_name: "+item_name+"\nItem_price: "+item_price);
 	}
 
 	public static void main(String[] args) {
