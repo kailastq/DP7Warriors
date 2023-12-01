@@ -1,6 +1,6 @@
 package com.stringLogical;
 
-public class StringReverse {
+public class ReverseString {
 	static void reverseSt(String s) 
 	{
 		String []str=s.split("\\s");
