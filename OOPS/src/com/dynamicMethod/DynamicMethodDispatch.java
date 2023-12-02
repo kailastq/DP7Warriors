@@ -9,7 +9,7 @@ class Person{
 class Employee extends Person{
 	 void display() {              // we can make it public, protected and default but we cannot make it private 
 		super.display();
-		System.out.println(" I am an Employee");
+		System.out.println("I am an Employee");
 	}
 	
 	void show() {
@@ -30,12 +30,17 @@ public class DynamicMethodDispatch {
 		Person p;
 		p=new Person();
 		p.display();
+		System.out.println("=================");
 		
 		Employee e=new Employee();
 		e.display();
+		System.out.println("=================");
+
 		
 		Parent p1=new Parent();
 		p1.display();
+		System.out.println("=================");
+
 		
 
 	}
