@@ -5,12 +5,12 @@ abstract class Student {
 	private String name;
 	private float fees;
 
-	static String instituteName;
+	static String instituteName="Star Academy";
 	static float discount;
 
-	static {
-		instituteName = "Star Academy";
-	}
+//	static {
+//		instituteName = "Star Academy";
+//	}
 
 	Student() {
 
@@ -64,7 +64,7 @@ abstract class Student {
 
 	final void display() {
 		System.out.println("Institute Name: " + instituteName);
-		System.out.println("--------------------------------------");
+		System.out.println("-------------------------------------------");
 
 		System.out.println("Id: " + id);
 		System.out.println("Name: " + name);
@@ -153,7 +153,7 @@ public class AbstractDemo2 {
 
 		System.out.println("------------------------------------------------------------");
 
-		ArtStudent a = new ArtStudent(102, "Shiv", 11000, "Painting");
+		ArtStudent a = new ArtStudent(102, "Shiv", 11000, "Mona Lisa");
 		a.display();
 		a.description();
 

@@ -1,7 +1,7 @@
 package com.Abstract;
 
 abstract class Animal {
-	public abstract void makesound();
+	 abstract void makesound();
 
 	public void eat() {
 		System.out.println("The Animal is Eating..");
