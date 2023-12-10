@@ -18,13 +18,19 @@ public class DBConnect {
 	{
 		try
 		{
-			//load the driver
+			/*steps of JDBC:
+			load the driver
+			get the connection
+			create statement
+			Execute the  Query*/
+			
+			
 			//Class.forName(JDBC_DRIVER);
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver loaded......");
 			
-			//conn= DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/companydb","root","root");
+			conn= DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
+			//conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/companydb","root","root");
 			System.out.println("Connection done...");
 		}
 		catch(Exception e)

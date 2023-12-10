@@ -21,9 +21,12 @@ public class CourseCrud {
 	public CourseCrud() {
 		con = DBConnect.getConnect();
 		System.out.println("Connection done.....");
-		try {
+		try 
+		{
 			st = con.createStatement();
-		} catch (SQLException e) {
+		} 
+		catch (SQLException e)
+		{
 			System.out.println(e);
 		}
 
@@ -246,6 +249,7 @@ public class CourseCrud {
 		while(true)
 		{
 			
+			System.out.println("========================");
 			System.out.println("1.Show Details"
 					+ "\n2.Insert Data"
 					+ "\n3.Delete Course"
@@ -279,7 +283,7 @@ public class CourseCrud {
 			case 6:f1.updateCourseFees();
 					   break;
 			
-			default:System.out.println("Wrong Input...");
+			default:System.out.println("Error...");
 			
 			}
 		}

@@ -9,7 +9,7 @@ public class DBConnection {
 	
 	public static final String JDBC_DRIVER="com.mysql.cj.jdbc.Driver";
 	public static final String JDBC_URL="jdbc:mysql://127.0.0.1:3306/studentdb";
-	public static final String USERNAME="127.0.0.1";
+	public static final String USERNAME="root";
 	public static final String PASSWORD="root";
 	static Connection conn=null;
 	
@@ -24,7 +24,7 @@ public class DBConnection {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver loaded......");
-			conn= DriverManager.getConnection("jdbc: mysql//lo", USERNAME, PASSWORD);
+			conn= DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
 			System.out.println("Connection done...");
 		}
 		catch(Exception e)
