@@ -51,6 +51,7 @@ class Employee extends Person
 		salary=salary+1000;
 		return this;
 	}
+	
 	public String show() {
 		return "ID:"+id+"Name: "+name+"Salary: "+salary;
 	}
