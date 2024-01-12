@@ -7,7 +7,7 @@ public class DBConnect {
 	
 	public static final String JDBC_DRIVER="com.mysql.cj.jdbc.Driver";
 	public static final String JDBC_URL="jdbc:mysql://localhost:3306/studentdb";
-	public static final String USERNAME="127.0.0.1";
+	public static final String USERNAME="root";
 	public static final String PASSWORD="root";
 
 	static Connection conn=null;
