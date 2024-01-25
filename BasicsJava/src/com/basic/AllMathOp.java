@@ -2,7 +2,7 @@ package com.basic;
 
 public class AllMathOp {
 
-	public static void main(String[] args) {
+	public static void main(String[ ] args) {
 		
 		int num1=9;
 		int num2=6;
@@ -23,12 +23,6 @@ public class AllMathOp {
 		
 		int modulus=num1%num2;
 		System.out.println("Modulus: "+modulus);
-		
-		
-		
-		
-		
-
 	}
 
 }
